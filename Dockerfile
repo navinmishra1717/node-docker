@@ -24,3 +24,4 @@ CMD [ "node", "app.js" ]
 # Change the user permission: Ensure that all the application files are owned by the non-root "node" user, including node_modules directory.
 # Install the application dependencies
 #  expose port 8080
+# CMD runs the command to start the application, in this case: node app.js
