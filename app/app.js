@@ -3,7 +3,7 @@ const app = express();
 const router = express.Router();
 
 const path = __dirname + '/views/';
-const port = 8080;
+const port = 8081;
 
 router.use(function (req, res, next) {
   console.log('/' + req.method);
@@ -23,5 +23,5 @@ router.get('/sharks', function (req, res) {
 app.use('/', router);
 
 app.listen(port, function () {
-  console.log('Example app listening on port 8080!');
+  console.log('Example app listening on port 8081!');
 });
